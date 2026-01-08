@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imaad Doodh Factory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Hind:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="opening-overlay">
+    <div class="opening-box">
+      <h1>Welcome to Imaad Doodh Factory</h1>
+      <p>Tap below to enter the world of fresh, pure doodh.</p>
+      <button id="enter-btn">Enter Factory</button>
+    </div>
+  </div>
+  <div id="factory-page">
+    <header class="hero">
+      <nav class="nav-bar">
+        <div class="logo">Imaad <span>Doodh</span></div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Pure Farm-Fresh Doodh, From Our Family to Yours</h1>
+          <p>Every drop is sourced with care, processed with hygiene, and delivered with love so your family enjoys real, honest milk every day.</p>
+          <a href="#products" class="btn-primary">Order Fresh Milk</a>
+        </div>
+        <div class="hero-image">
+          <img src="C:\Users\91983\Downloads\WhatsApp Image 2026-01-08 at 13.25.39.jpeg">
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section about">
+        <h2>About Imaad Doodh Factory</h2>
+        <p>
+          Imaad Doodh Factory focuses on delivering pure, hygienic, and tasty milk products for families and businesses.
+        </p>
+      </section>
+
+      <section id="products" class="section products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <h3>Full Cream Milk</h3>
+            <p>Rich, creamy, and ideal for tea, coffee, and desserts.</p>
+          </div>
+          <div class="product-card">
+            <h3>Toned Milk</h3>
+            <p>Perfect balance of taste and health for daily use.</p>
+          </div>
+          <div class="product-card">
+            <h3>Luxury Milk</h3>
+            <p>Freshly prepared dairy products from high-quality milk.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@imaaddoodhfactory.com</p>
+        <p>Phone: +91-98765-43210</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Thank You! Please visit us again.</p>
+    </footer>
+  </div>
+  <script>
+    const overlay = document.getElementById('opening-overlay');
+    const btn = document.getElementById('enter-btn');
+
+    btn.addEventListener('click', () => {
+      overlay.classList.add('hide-overlay');
+    });
+  </script>
+</body>
+</html>
